@@ -1,5 +1,5 @@
 import ServiceCard from './ServiceCard';
-import serviceData from './ServiceData';
+import ServiceData from './ServiceData';
 
 function Services() {
   return (
@@ -10,7 +10,7 @@ function Services() {
         <button className="all-services-btn">All Services</button>
       </div>
       <div className="services-grid">
-        {serviceData.map((service, index) => (
+        {ServiceData.map((service, index) => (
           <ServiceCard
             key={index}
             iconBw={service.iconBw}

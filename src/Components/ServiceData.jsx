@@ -1,4 +1,4 @@
-const serviceData = [
+const ServiceData = [
     {
       iconBw: "images/icons/buildingbw.png",
       iconColor: "images/icons/buildingcolor.png",
@@ -25,4 +25,4 @@ const serviceData = [
     }
   ];
   
-  export default serviceData;
+  export default ServiceData;
