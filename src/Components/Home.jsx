@@ -8,7 +8,7 @@ function Home() {
       if (homeSection) {
         homeSection.scrollIntoView({ behavior: 'smooth' });
       }
-    }, 6000);
+    }, 4000);
 
     return () => clearTimeout(timer);
   }, []);
